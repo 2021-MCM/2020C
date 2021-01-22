@@ -1,0 +1,278 @@
+%%
+%% This is file `mcmthesis-demo.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% mcmthesis.dtx  (with options: `demo')
+%% !Mode:: "TeX:UTF-8"
+%% -----------------------------------
+%%
+%% This is a generated file.
+%%
+%% Copyright (C)
+%%     2010 -- 2015 by latexstudio
+%%     2014 -- 2016 by Liam Huang
+%%     2014 -- 2016 by latexstudio.net
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%%
+%% The Current Maintainer of this work is Liam Huang.
+%%
+\documentclass{mcmthesis}
+\mcmsetup{CTeX = false,   % 使用 CTeX 套装时，设置为 true
+        tcn = 2010755, problem = A,% 队伍控制号码，接受一个字符串作为值；选题，接受一个字符串作为值；
+        sheet = false, %为真时将输出摘要页，否则不输出；默认为 true。
+        color = red,  %设置控制页的题目号的颜色
+        titleinsheet = true, %为真时将在摘要页输出标题，否则不输出；默认为 false。
+        keywordsinsheet = true,%为真时将在摘要页输出关键字，否则不输出；默认为 false。
+        titlepage = false,%为真时将输出标题页，否则不输出；默认为 true。
+        abstract = true}%为真时将在标题页输出摘要和关键词，否则不输出；默认值为 true。
+\usepackage{palatino}  %控制正文字体，若是不喜欢可以注释掉。
+\usepackage{lipsum}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{verbatim}
+\usepackage{subfigure} 
+\usetikzlibrary{arrows,shapes,chains}
+\title{Title!}
+\author{\url{http://www.latexstudio.net}\\[3pt]  \href{http://www.latexstudio.net/}
+  {\includegraphics[width=7cm]{mcmthesis-logo}}}
+\date{\today}
+
+\makeatletter
+\renewcommand*\l@section{\@dottedtocline{1}{12pt}{12pt}}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MCM/ICM LaTeX Template %%
+%% 2020 MCM/ICM           %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\geometry{left=1in,right=0.75in,top=1in,bottom=1in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Replace ABCDEF in the next line with your chosen problem
+% and replace 1111111 with your Team Control Number
+\newcommand{\Problem}{A}
+\newcommand{\Team}{\# 2010755}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{newtxtext}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{newtxmath} % must come after amsXXX
+
+%\usepackage[pdftex]{graphicx}
+
+\usepackage{fancyhdr}
+\lhead{Team \Team}
+\rhead{}
+\cfoot{}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}{Definition}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\graphicspath{{.}}  % Place your graphic files in the same directory as your main document
+\DeclareGraphicsExtensions{.pdf, .jpg, .tif, .png}
+\thispagestyle{empty}
+\vspace*{-16ex}
+\centerline{\begin{tabular}{*3{c}}
+	\parbox[t]{0.3\linewidth}{\begin{center}\textbf{Problem Chosen}\\ \Large \textcolor{red}{\Problem}\end{center}}
+	& \parbox[t]{0.3\linewidth}{\begin{center}\textbf{2020\\ MCM/ICM\\ Summary Sheet}\end{center}}
+	& \parbox[t]{0.3\linewidth}{\begin{center}\textbf{Team Control Number}\\ \Large \textcolor{red}{\Team}\end{center}}	\\
+	\hline
+\end{tabular}}
+\begin{Huge}
+\begin{center}
+\textbf{XXX}
+\end{center}
+\end{Huge}
+%%%%%%%%%%% Begin Summary %%%%%%%%%%%
+% Enter your summary here replacing the (red) text
+% Replace the text from here ...
+\begin{center}
+\begin{large}
+\textbf{Summary}
+\end{large}
+\end{center}
+
+
+
+% to here
+%%%%%%%%%%% End Summary %%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\pagestyle{fancy}
+
+% Uncomment the next line to generate a Table of Contents
+%\tableofcontents 
+
+\setcounter{page}{1}
+\rhead{Page \thepage\ of \pageref{LastPage}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{abstract}
+Firstly,\cite{1}
+
+Secondly,
+
+Thirdly,
+
+We then
+
+Finally,
+
+\begin{keywords}
+Generalized Additive Model, Markov model
+\end{keywords}
+\end{abstract}
+\maketitle
+
+\tableofcontents
+
+
+\section{Introduction}
+
+
+
+
+\section{Assumption}
+
+There are some symbols appear in the model. We show them below:
+\begin{table}[htbp]
+\centering
+\caption{Symbols in Chapter 3}
+\begin{tabular}{cp{0.8\textwidth}}
+\toprule
+ Symbols & Description\\
+\midrule
+ $i$ & Station variable \\
+ $DS_i$ & Density of fish( mackerel or herring) at station i $(kg/km^2)$\\
+ $H_i$ & Horizontal opening of trawl at station i  $(km)$\\
+ $TD_i$ & Distance of the trawl haul $(km^2)$ \\
+ $C_i$ &  Catch at station i$(kg)$\\
+
+  $\lambda_i$ &   Longitude at station i $(^\circ W)$\\
+ $\phi_i$ &   Latitude at station i $(^\circ N)$\\
+$SST_i$ &  Sea Surface Temperature at station i $(^\circ C)$\\
+
+ $z_i$ & Zooplankton's dry weight at station i $(kg)$\\
+ $SSB_i$ &  Spawning-stock biomass at station i \\
+  $b_i$ & Number of biological species at station i\\
+$y$ & Year \\
+$j$& Rectangular number\\
+$t$ & Time  \\
+$M_j(t)$ & State of the $j_{th}$ rectangle at time $t$ \\
+$P_{M_w,M_k}$ &  Transition probability for the State $M_w$changing into State $M_k$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[htbp]
+\centering
+\caption{Symbols in Chapter 4}
+\begin{tabular}{cp{0.8\textwidth}}
+\toprule
+ Symbols & Description\\
+\midrule
+$B$ &  Backshift operator\\
+
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{Symbols in Chapter 5 \& 6}
+\begin{tabular}{cp{0.8\textwidth}}
+\toprule
+ Symbols & Description\\
+\midrule
+ %\rowcolor{lightgray}
+$CPUE_{y}$ & Catch Per Unit Effort in year $y$\\
+
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+
+
+\section{M1}
+
+\section{M2}
+
+\section{M3}
+
+
+
+
+\section{Strengths and Weaknesses}
+\subsection{Strengths}
+
+
+
+\subsection{Weaknesses}
+
+
+\section{A Letter}
+\textbf{MEMORANDUM}~\\
+\textbf{TO: Hook Line and Sinker}\\
+\textbf{FROM:Team \#2010755}\\
+
+
+\begin{thebibliography}{99}
+\bibitem{1} Olafsdottir, A. H., Utne, K. R., Jacobsen, J. A., Jansen, T., Óskarsson, G. J., Nøttestad, L., ... \& Slotte, A. (2019). Geographical expansion of Northeast Atlantic mackerel (Scomber scombrus) in the Nordic Seas from 2007 to 2016 was primarily driven by stock size and constrained by low temperatures. Deep Sea Research Part II: Topical Studies in Oceanography, 159, 152-168.
+\bibitem{2}  Wu shengnan, Chen xinjun, \& liu zhonan. (2019). Prediction model of Japanese mackerel resource abundance in the northwest Pacific based on GAM. Acta oceanologica sinica, 41(8), 36-42.
+\bibitem{3}\url{http://ecosystemdata.ices.dk/Map/index.aspx?Action=AddLayer&TAXA=6799&YEAR=2017&Grid=-1&Color=random&Type=Count}
+\bibitem{4} Nøttestad, L., Anthonypillai, V., Tangen, Ø., Høines, A., Utne, K. R., Oskarsson, G. J., ... \& Jansen, T. (2016). Cruise report from the International Ecosystem Summer Survey in the Nordic Seas (IESSNS) with M/V M. Ytterstad’, M/V ‘Vendla’, M/V ‘Tróndur ı Gøtu’, M/V ‘Finnur Frıði’and R/V ‘Arni Friðriksson, 1-31.
+\bibitem{5} Zhang yunquan, zhu yaohui, li cunlu, feng renjie, \& ma lu. (2015). Implementation of generalized additive model in R software. China health statistics, 32(6), 1073-1075.
+\bibitem{6}Li dewei, zhang long, wang Yang, \& zhu wenbin. (2015). Analysis of the relationship between CPUE and environmental factors in Argentine sliders based on GAM. Fisheries modernization, (2015 04), 56-61.
+\bibitem{7}XiaoXin Han(2009). Research on the Contribution Rates of Three Industries in
+China Based on Markov Chain. Cooperative Economy \& Science (15), 24-25.
+\bibitem{8}Chang, X., Gao, M., Wang, Y., \& Hou, X. (2012). Seasonal autoregressive integrated moving average model for precipitation time series. Journal of Mathematics \& Statistics, 8(4).
+\bibitem{9}
+Akaike H. (1987) Factor Analysis and AIC. In: Parzen E., Tanabe K., Kitagawa G. (eds) Selected Papers of Hirotugu Akaike. Springer Series in Statistics (Perspectives in Statistics). Springer, New York, NY
+\end{thebibliography}
+
+\begin{appendices}
+
+\section{First appendix}
+
+\end{appendices}
+
+\end{document}
+
+%%
+%% This work consists of these files mcmthesis.dtx,
+%%                                   figures/ and
+%%                                   code/,
+%% and the derived files             mcmthesis.cls,
+%%                                   mcmthesis-demo.tex,
+%%                                   README,
+%%                                   LICENSE,
+%%                                   mcmthesis.pdf and
+%%                                   mcmthesis-demo.pdf.
+%%
+%% End of file `mcmthesis-demo.tex'.
+
+\end
+
+
+
+
