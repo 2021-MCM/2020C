@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.23)  23 JAN 2021 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.23)  23 JAN 2021 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1394,10 +1394,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./figures/f1.png> <./figures/f2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 434--437
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1407,21 +1403,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
+Underfull \hbox (badness 10000) in paragraph at lines 449--452
+
+ []
+
 LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 
-442.
- (d:/texlive/2020/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+457.
+(d:/texlive/2020/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 442.
+(Font)              scaled to size 12.0pt on input line 457.
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
 [][][]$\T1/ntxtt/m/n/12 http : / / ecosystemdata . ices . dk / Map / index . as
 px ? Action = AddLayer & TAXA = 6799 &
  []
 
-
-AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1430,7 +1428,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7]
+[7] 
+AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1461,7 +1460,7 @@ exmf-dist/fonts/type1/public/newtx/txexs.pfb><d:/texlive/2020/texmf-dist/fonts/
 type1/public/newtx/txmiaX.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/ne
 wtx/txsys.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:
 /texlive/2020/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-Output written on test.pdf (9 pages, 215691 bytes).
+Output written on test.pdf (9 pages, 216864 bytes).
 PDF statistics:
  253 PDF objects out of 1000 (max. 8388607)
  215 compressed objects within 3 object streams
