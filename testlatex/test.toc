@@ -1,12 +1,12 @@
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}% 
-\contentsline {section}{\numberline {2}Assumption}{1}{section.2}% 
-\contentsline {section}{\numberline {3}M1}{1}{section.3}% 
-\contentsline {section}{\numberline {4}M2}{3}{section.4}% 
-\contentsline {section}{\numberline {5}M3}{3}{section.5}% 
-\contentsline {section}{\numberline {6}Strengths and Weaknesses}{3}{section.6}% 
-\contentsline {subsection}{\numberline {6.1}Strengths}{3}{subsection.6.1}% 
-\contentsline {subsection}{\numberline {6.2}Weaknesses}{3}{subsection.6.2}% 
-\contentsline {section}{\numberline {7}A Letter}{3}{section.7}% 
-\contentsline {section}{Appendices}{4}{section*.2}% 
-\contentsline {section}{Appendix \numberline {A}First appendix}{4}{Appendix.a.A}% 
-\contentsline {subsection}{\numberline {A.1}Wordcloud for pacifiers and microwaves}{4}{subsection.a.A.1}% 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Assumption}{1}{section.2}%
+\contentsline {section}{\numberline {3}M1}{1}{section.3}%
+\contentsline {section}{\numberline {4}M2}{3}{section.4}%
+\contentsline {section}{\numberline {5}M3}{3}{section.5}%
+\contentsline {section}{\numberline {6}Strengths and Weaknesses}{3}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Strengths}{3}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Weaknesses}{3}{subsection.6.2}%
+\contentsline {section}{\numberline {7}A Letter}{3}{section.7}%
+\contentsline {section}{Appendices}{4}{section*.2}%
+\contentsline {section}{Appendix \numberline {A}First appendix}{4}{appendix.a.A}%
+\contentsline {subsection}{\numberline {A.1}Wordcloud for pacifiers and microwaves}{4}{subsection.a.A.1}%
