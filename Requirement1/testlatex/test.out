@@ -1,17 +1,17 @@
 \BOOKMARK [1][]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][]{section.2}{Assumption}{}% 2
-\BOOKMARK [1][]{section.3}{Data preprocessing and Descriptive statistics }{}% 3
-\BOOKMARK [2][]{subsection.3.1}{Data preprocessing}{section.3}% 4
-\BOOKMARK [3][]{subsubsection.3.1.1}{Removal of meaningless data}{subsection.3.1}% 5
-\BOOKMARK [3][]{subsubsection.3.1.2}{Data type conversion}{subsection.3.1}% 6
-\BOOKMARK [1][]{section.4}{The relationship between star rating and review text based on Logistic Regreesion}{}% 7
-\BOOKMARK [2][]{subsection.4.1}{Quantification of review text based on TF-IDF Method}{section.4}% 8
-\BOOKMARK [2][]{subsection.4.2}{Model Comparison}{section.4}% 9
-\BOOKMARK [2][]{subsection.4.3}{Logistic Regression}{section.4}% 10
-\BOOKMARK [2][]{subsection.4.4}{The result of Regression}{section.4}% 11
-\BOOKMARK [1][]{section.5}{Strengths and Weaknesses}{}% 12
+\BOOKMARK [1][]{section.3}{Data\040preprocessing\040and\040Descriptive\040statistics\040}{}% 3
+\BOOKMARK [2][]{subsection.3.1}{Data\040preprocessing}{section.3}% 4
+\BOOKMARK [3][]{subsubsection.3.1.1}{Removal\040of\040meaningless\040data}{subsection.3.1}% 5
+\BOOKMARK [3][]{subsubsection.3.1.2}{Data\040type\040conversion}{subsection.3.1}% 6
+\BOOKMARK [1][]{section.4}{The\040relationship\040between\040star\040rating\040and\040review\040text\040based\040on\040Logistic\040Regreesion}{}% 7
+\BOOKMARK [2][]{subsection.4.1}{Quantification\040of\040review\040text\040based\040on\040TF-IDF\040Method}{section.4}% 8
+\BOOKMARK [2][]{subsection.4.2}{Model\040Comparison}{section.4}% 9
+\BOOKMARK [2][]{subsection.4.3}{Logistic\040Regression}{section.4}% 10
+\BOOKMARK [2][]{subsection.4.4}{The\040result\040of\040Regression}{section.4}% 11
+\BOOKMARK [1][]{section.5}{Strengths\040and\040Weaknesses}{}% 12
 \BOOKMARK [2][]{subsection.5.1}{Strengths}{section.5}% 13
 \BOOKMARK [2][]{subsection.5.2}{Weaknesses}{section.5}% 14
-\BOOKMARK [1][]{section.6}{A Letter}{}% 15
+\BOOKMARK [1][]{section.6}{A\040Letter}{}% 15
 \BOOKMARK [1][]{section*.2}{Appendices}{}% 16
-\BOOKMARK [1][]{appendix.a.A}{Appendix First appendix}{}% 17
+\BOOKMARK [1][]{Appendix.a.A}{Appendix\040First\040appendix}{}% 17

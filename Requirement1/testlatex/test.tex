@@ -287,12 +287,12 @@ We use the method of TF-IDF word vector to vectorize the text.
 We first vectorize the text using the sklearn library's method of generating TF-IDF word vectors.
 
 Using positive/negative tags, we use Bernoulli Naive Bayes classifier, Multinomial Naive Bayes classifier, Support Vector Machine(SVM) ,Stochastic gradient descent Classifier(SGD Classifier) and Logistic Regression model for text sentiment analysis.
-Then, we evaluated the fitting effects of the five models using four indexes, namely precision rate, recall rate, F1 measurement and ROC curve.
+Then, we evaluate贝叶斯网络可d the fitting effects of the five models using four indexes, namely precision rate, recall rate, F1 measurement and ROC curve.
 
 By comparison, the logistic regression model is the best.
 
 \begin{enumerate}[*]
-\item Precision rate: As can be seen from the following table, the accuracy rate of Logistic Regression model is as high as 89\%.
+\item Precision rate: As can be seen from the following table, the accuracy rate of Logistic Regression model is as high as 89\%. 
 
 \begin{center}
 \textbf{The precision rate of each classifier}
@@ -417,6 +417,28 @@ Next, we will show the coefficient estimation obtained by logistic regression an
 meaning.Since there are too many independent variables in logistic regression to show them
 all, we only show some representative variables in the following table.
 
+\begin{table}[h]
+\centering
+\caption{Some representative variables}
+\begin{tabular}{|c|c|c|c|c|}
+\toprule[1.5pt]
+\makebox[0.12\textwidth][c] {product}& \makebox[0.15\textwidth][c] {positive}& \makebox[0.15\textwidth][c] {weight} & \makebox[0.15\textwidth][c] {negative}& \makebox[0.15\textwidth][c] {weight}\\ \hline
+   & loves & 2.589672 &disapointed &  -3.041049 \\ 
+	& teething & 1.337997 &hates & -2.259913\\ 
+   & handy & 1.062561 & poor & -2.013776 \\ 
+   & lifesaver & 1.063271 & babies mouth & -1.985188\\ 
+   & cute & 1.105039 & stuck & -1.933167 \\ 
+ pacifier   & quality & 1.121975 & difficult & -1.772528 \\ 
+   & simple & 1.183078 & replaceable & -1.700044\\ 
+   & awesome & 1.192225 & heavy & -1.689678\\ 
+   & happy & 1.203141 & hard & -1.685590\\ 
+   & wonderful & 1.228934 & useless & -1.670727\\ 
+   & easy & 1.298796 & personalized & -1.645773\\ 
+   & read description & 1.468950 & pictured& -1.638039\\ 
+\toprule[1.5pt]
+\end{tabular}
+\label{tab2}    
+\end{table}
 
 
 The specific meaning of the coefficient of the variable obtained by logistic regression is the
